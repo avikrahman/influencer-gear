@@ -1,0 +1,52 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width:50%;
+    display: flex;
+}
+.half-width img{
+    width: 100%;
+    display: flex;
+}
+.link-button{
+    text-decoration: non  e;
+    background-image: linear-gradient(rgb(49, 0, 128));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 100px;
+    background-color: rgb(28, 0, 128);
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom:70px;
+}
+ border{
+    background-color: bisque;
+    width: 1070px;
+    padding: 30px;
+}
+/* collection -bannner */
+.collection{
+    display: grid;
+    grid-template-columns: repeat(6,3 fr);
+    grid-column-gap: 24px;
+}
+.collection .collection-banner img{
+    Width :300px;
+Height :256px;
+
+}
+.fa-star.filled {
+    color:yellow
+}
+footer p{
+    text-align: center;
+    background-color:blue;
+    display: flex;
+    
+ }
